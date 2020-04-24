@@ -1,0 +1,17 @@
+84c050f9270d8c70fe8aa0e2f6c2df6e *DESCRIPTION
+4bd05e27e538c33bf21244ef764dbbaa *LICENSE
+d96b3f17d530876c97e170877c54c383 *NAMESPACE
+3e1bfa272ae97725fd93fd0d493b1cf6 *R/PCs_1000G.R
+d1f1502d0216a55f9dc4d7c469ceeb5c *R/eigenvalues_1000G.R
+58ef957f1239572983bd64215fa348ac *R/match_maker.R
+b30529970c8c32b99e378b7e297a7f15 *R/plot_maker.R
+e07cd3a90ba49e416d144c3a773027e4 *README.md
+735df2168476df1eb8ac12873f1efbaa *data/PCs_1000G.rda
+ac8e75aad402be87a6f6c1d5d4bf5401 *data/eigenvalues_1000G.rda
+f78d7fca2d6dbfde7c46790732a38625 *man/PCs_1000G.Rd
+30572e44da6a6fd3c303cf4faff41f5e *man/eigenvalues_1000G.Rd
+45f5ec2a9d6312036316a9077a0178f2 *man/match_maker.Rd
+b931aaf1f43d3d22fff8bca938bfb35f *man/plot_maker.Rd
+8d2636b83e514df18f2ffeff9f87592c *tests/testthat.R
+6e4afa02503162f24775f668a208a278 *tests/testthat/test-match_maker.R
+450f0a0d125bf7d159e93473b78e85fb *tests/testthat/test-plot_maker.R
