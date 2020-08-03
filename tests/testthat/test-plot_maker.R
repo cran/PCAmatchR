@@ -5,8 +5,11 @@ context("plot_maker")
  # Create PC data frame
  pcs<- as.data.frame(PCs_1000G[,c(1,5:24)])
 
- # Create eigen values vector
+ # Create eigenvalues vector
  eigen_vals<- c(eigenvalues_1000G)$eigen_values
+
+ # Create full eigenvalues vector
+ all_eigen_vals<- c(eigenvalues_all_1000G)$eigen_values
 
  # Create Covarite data frame
  cov_data<- PCs_1000G[,c(1:4)]
@@ -21,7 +24,7 @@ context("plot_maker")
                                   ids = c("sample"),
                                   case_control="case",
                                   num_controls = 1,
-                                  num_PCs = dim(cov_data)[1])
+                                  eigen_sum = sum(all_eigen_vals))
 
 test_that("plot_maker throws error with invalid arguments", {
 
