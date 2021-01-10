@@ -1,6 +1,6 @@
 Package: PCAmatchR
 Title: Match Cases to Controls Based on Genotype Principal Components
-Version: 0.2.1
+Version: 0.3.0
 Authors@R: 
     c(person(given = "Derek W.",
              family = "Brown",
@@ -30,12 +30,12 @@ LazyData: true
 Depends: R (>= 2.10)
 Suggests: optmatch, testthat, knitr, rmarkdown
 VignetteBuilder: knitr
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2020-08-03 17:14:13 UTC; myersta
+Packaged: 2021-01-05 21:03:20 UTC; myersta
 Author: Derek W. Brown [aut, cre],
   Mitchel J. Machiela [aut],
   Timothy A. Myers [ctb],
   NCI [cph, fnd]
 Repository: CRAN
-Date/Publication: 2020-08-03 23:00:06 UTC
+Date/Publication: 2021-01-10 15:20:22 UTC
